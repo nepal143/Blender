@@ -1,0 +1,86 @@
+# =========================
+# Blender Autosave / Backup
+# =========================
+
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+*.blend~
+
+
+# =========================
+# Cache & Simulation Data
+# =========================
+
+# General cache folders
+*.uni
+*.vdb
+cache/
+_cache/
+__pycache__/
+
+# Mantaflow / Smoke / Fire
+**/cache_fluid/
+**/mantaflow/
+**/cache_manta/
+
+# Cloth / Rigid Body / Particles
+**/cache_cloth/
+**/cache_rigidbody/
+**/cache_particles/
+
+# Geometry Nodes cache
+**/geo_cache/
+*.bphys
+
+
+# =========================
+# Render Output ONLY
+# =========================
+
+renders/
+output/
+tmp_render/
+
+
+# =========================
+# Temporary / OS Files
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+
+# =========================
+# MCprep / Tool Cache
+# =========================
+
+MCprep_cache/
+.mcprep/
+
+
+# =========================
+# KEEP THESE (Explicit)
+# =========================
+*.png
+# Blender main files
+!*.blend
+*.glb
+*.ibl
+*.fbx
+*.abc
+# Specific Folders 
+*/Demo.blend
+/cache_fluid_4b85f272
+
+/Bakugo(AllMight)
+/swordInTheStone4_downloadFiles_part2/*
+/swordInTheStone4_downloadFiles_part3/*
